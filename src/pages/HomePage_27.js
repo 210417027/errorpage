@@ -45,7 +45,8 @@ const ErrorPage = () => {
           <div className="arm-right"><div className="club"></div></div>    
         </div>
       </div>
-      <a href="https://codepen.io/SofiaSergio/" target="_blank">
+      <a href="#" onClick={(e) => { e.preventDefault(); window.history.back(); }} target="_blank">
+      {/* <a href="javascript:history.back()" target="_blank"> */}
         <div id="link">
           <i className="fab fa-codepen"></i>
           <h1>Back</h1>
